@@ -1,0 +1,22 @@
+{
+    "name": "user/framework",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jean-Claude AZIAHA",
+            "email": "aziaha.formations@gmail.com"
+        }
+    ],
+    "require": {
+        "php-di/php-di": "^6.4",
+        "symfony/http-foundation": "^6.0",
+        "twig/twig": "^3.4"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.0"
+    }
+}
